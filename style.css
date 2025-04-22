@@ -67,15 +67,27 @@
     display: flex;
     justify-content: space-evenly;
 }
+.middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 400px;
+    background-color: #FFFFFF;
+}
 .card img{
     height: 200px;
     width: 200px;
+    border-radius: 20px;
     
 }
 .middle h2{
+    margin-bottom: 20px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    
+    text-align: center;
+}
+.card p{
+    font-size: 18px;
+    color: #606874;
 }
 
